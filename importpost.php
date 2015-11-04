@@ -1,11 +1,11 @@
 <?php
 
 /*
- * @author akastl
+ * @author akastl<anja.kastl@gmail.com>
  * 
- * Application Monitoring
- * Triggered by cronjob
- * Exports all projects that fall into current monitoring timespan into json file
+ * Import Post
+ * Laravel Task - triggered by cronjob
+ * Import Wordpress post into a database. Powered by a json feed.
  */
 
 class importpost_Task {

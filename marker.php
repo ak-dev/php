@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * Create Marker Image
+ * Dynamically create an image on the server
+ * Saves file to an S3 bucket
+ *
+ * @author akastl<anja.kastl@gmail.com>
+ */
+
 class Marker extends Crime
 {
     public function __construct()

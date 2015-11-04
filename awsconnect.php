@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * S3 Upload
+ * Simple upload that connects to the S3 bucket and uploads a file
+ *
+ * @author akastl<anja.kastl@gmail.com>
+ */
+
 require(dirname(dirname(dirname(__FILE__))) . "/aws/aws-autoloader.php");
 
 use Aws\S3\S3Client;
